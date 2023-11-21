@@ -14,7 +14,7 @@ function Courses(){
   // };
 
     return(
-        <div style={{  height:'300vh' , backgroundColor:'#e6ffff'}}>
+        <div style={{  height:'300vh' , backgroundColor:'#e6ffff'}}> 
         <Header />
  
         <div style={{height:'270vh'}}>
