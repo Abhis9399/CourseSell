@@ -4,15 +4,18 @@ import Card from '../component/card';
 import CardInfo from "../cardInfo";
 import Footer from "../component/footer";
 
-function landingpage(){
+function Landingpage(){
+
     return(
         <div>
     <Header />
+   
    <div className="image1">
     <img  src="/images/R.jfif" alt=""/>
    </div>
 
    <div className="content container">
+
     <h2 className="name">Course Description!</h2>
 
     <h2>
@@ -110,4 +113,4 @@ time={CardInfo[2].time}
     );
 }
 
-export default landingpage;
+export default Landingpage;

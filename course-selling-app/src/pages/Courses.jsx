@@ -2,7 +2,6 @@ import React from "react";
 import {useNavigate} from "react-router-dom";
 import Header from '../component/header'
 import Footer from '../component/footer'
-import Payment from "./paymentGate";
 import Video from './smoke.mp4';
 
 
@@ -28,13 +27,19 @@ function Courses(){
         <video src={Video} autoPlay muted ></video>
         <span className="smoke_effect">
             <span>A</span>
-            <span>B</span>
-            <span>H</span>
-            <span>I</span>
-            <span>S</span>
-            <span>H</span>
-            <span>E</span>
+            <span>&</span>
             <span>K</span>
+            <span>- </span>
+            <span>S</span>
+            <span>c</span>
+            <span>h</span>
+            <span>o</span>
+            <span>l</span>
+            <span>a</span>
+            <span>r</span>
+            <span>i</span>
+            <span>u</span>
+            <span>m</span>
         </span>
 
         <div className="CoursesDesign">
@@ -54,7 +59,7 @@ function Courses(){
         <div class="card">
           <img src="/images/web-development.webp" class="card-img-top" alt="..." />
           <div class="card-body">
-           <button style={{marginTop:'5%', marginLeft:'25%'}} onClick={handleEnrollClick} >Enroll</button>
+           <button style={{marginTop:'5%', marginLeft:'18%'}} onClick={handleEnrollClick} >Enroll</button>
           </div>
         </div>
       </div>
@@ -62,7 +67,7 @@ function Courses(){
         <div class="card">
           <img src="/images/web-development.webp" class="card-img-top" alt="..." />
           <div class="card-body">
-           <button style={{marginTop:'5%', marginLeft:'25%'}} onClick={handleEnrollClick} >Enroll</button>
+           <button style={{marginTop:'5%', marginLeft:'18%'}} onClick={handleEnrollClick} >Enroll</button>
           </div>
         </div>
       </div>
@@ -70,7 +75,7 @@ function Courses(){
         <div class="card">
           <img src="/images/web-development.webp" class="card-img-top" alt="..." />
           <div class="card-body">
-           <button style={{marginTop:'5%', marginLeft:'25%'}} onClick={handleEnrollClick} >Enroll</button>
+           <button style={{marginTop:'5%', marginLeft:'18%'}} onClick={handleEnrollClick} >Enroll</button>
           </div>
         </div>
       </div>
@@ -85,7 +90,7 @@ function Courses(){
         <div class="card">
           <img src="/images/web-development.webp" class="card-img-top" alt="..." />
           <div class="card-body">
-           <button style={{marginTop:'5%', marginLeft:'25%'}} onClick={handleEnrollClick} >Enroll</button>
+           <button style={{marginTop:'5%', marginLeft:'18%'}} onClick={handleEnrollClick} >Enroll</button>
           </div>
         </div>
       </div>
@@ -93,7 +98,7 @@ function Courses(){
         <div class="card">
           <img src="/images/web-development.webp" class="card-img-top" alt="..." />
           <div class="card-body">
-           <button style={{marginTop:'5%', marginLeft:'25%'}} onClick={handleEnrollClick} >Enroll</button>
+           <button style={{marginTop:'5%', marginLeft:'18%'}} onClick={handleEnrollClick} >Enroll</button>
           </div>
         </div>
       </div>
@@ -101,7 +106,7 @@ function Courses(){
         <div class="card">
           <img src="/images/web-development.webp" class="card-img-top" alt="..." />
           <div class="card-body">
-           <button style={{marginTop:'5%', marginLeft:'25%'}} onClick={handleEnrollClick} >Enroll</button>
+           <button style={{marginTop:'5%', marginLeft:'18%'}} onClick={handleEnrollClick} >Enroll</button>
           </div>
         </div>
       </div>
